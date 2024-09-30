@@ -2,7 +2,7 @@
 
 # CDN Storage Manager
 
-![CDN Storage Manager Logo](/photos/cdn.png)
+![CDN Storage Manager Logo](/cdn_logo.png)
 
 A powerful and flexible Content Delivery Network (CDN) solution for file storage, sharing, and management, built with Node.js and Express.
 
