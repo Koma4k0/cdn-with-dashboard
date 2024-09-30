@@ -23,22 +23,22 @@ A powerful and flexible Content Delivery Network (CDN) solution for file storage
 
 ## 🌟 Features
 
-- **📁 File Storage**: Securely store and manage files
-- **🔗 File Sharing**: Generate shareable links for easy file distribution
-- **🔐 User Authentication**: Secure access with username and password protection
-- **📊 Customizable Storage Limits**: Set maximum storage capacity through configuration
-- **📱 Responsive Dashboard**: Monitor and manage your CDN through a user-friendly interface
-- **🔧 Environment-aware Settings**: Automatically adjust security settings based on the environment
-- **🚨 Error Handling**: Comprehensive error management with custom error pages
-- **📝 Logging**: Detailed console logging with color-coded messages for easy debugging
+**📁 File Storage**: Securely store and manage files
+**🔗 File Sharing**: Generate shareable links for easy file distribution
+**🔐 User Authentication**: Secure access with username and password protection
+**📊 Customizable Storage Limits**: Set maximum storage capacity through configuration
+**📱 Responsive Dashboard**: Monitor and manage your CDN through a user-friendly interface
+**🔧 Environment-aware Settings**: Automatically adjust security settings based on the environment
+**🚨 Error Handling**: Comprehensive error management with custom error pages
+**📝 Logging**: Detailed console logging with color-coded messages for easy debugging
 
 ## 📋 Prerequisites
 
-- Node.js (v18+)
-- npm (Node Package Manager)
-- Git
-- VPS (Recommended for production use)
-- Domain (Recommended for production use)
+Node.js (v18+)
+npm (Node Package Manager)
+Git
+VPS (Recommended for production use)
+Domain (Recommended for production use)
 
 ## 💻 Installation
 
