@@ -45,7 +45,7 @@ A powerful and flexible Content Delivery Network (CDN) solution for file storage
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/koma4k0/cdn-storage-manager.git
+   git clone https://github.com/Koma4k0/cdn-with-dashboard.git
    ```
 
 2. Navigate to the project directory:
@@ -112,6 +112,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-Developed with ❤️ by [Koma4k](https://github.com/Koma4k0)
+Developed with ❤️ by [Koma4k](https://koma4k.xyz/)
 
 </div>
