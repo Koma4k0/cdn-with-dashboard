@@ -1,0 +1,22 @@
+# CDN Dashboard Configuration
+
+# The port on which the server will run
+port: 3000
+
+# Maximum storage limit in gigabytes (GB)
+storage_limit_gb: 1
+
+# Maximum Upload Size in megabytes (MB)
+max_upload_size_mb: 10
+
+# A unique, random string used to secure session data
+session_secret: "your_secure_random_string"
+
+# Single user credentials for accessing the dashboard
+# Change these values to secure your dashboard
+username: "user"
+password: "password"
+
+# Set to true when deploying to a production environment
+# Set to false when testing locally
+production: false

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CDN Dashboard Login</title>
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="/css/login.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.21/vanta.net.min.js"></script>
+</head>
+<body>
+    <div id="vanta-background"></div>
+    <div class="login-container">
+        <div class="login-card">
+            <h1 class="login-title animate__animated animate__fadeIn">CDN Dashboard</h1>
+            <% if (errorMessage) { %>
+                <div class="alert alert-danger text-center animate__animated animate__shakeX">
+                    <%= errorMessage %>
+                </div>
+            <% } %>
+            <form action="/login" method="post">
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="username" name="username" placeholder="Username" required autofocus>
+                    <label for="username"><i class="fas fa-user me-2"></i>Username</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="password" class="form-control" id="password" name="password" placeholder="Password" required>
+                    <label for="password"><i class="fas fa-lock me-2"></i>Password</label>
+                </div>
+                <button type="submit" class="btn btn-login w-100 animate__animated animate__pulse animate__infinite">Sign In</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        VANTA.NET({
+            el: "#vanta-background",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00,
+            color: 0x3fff,
+            backgroundColor: 0x0f1b2b,
+            points: 20.00,
+            maxDistance: 25.00,
+            spacing: 17.00
+        })
+    </script>
+</body>
+</html>
