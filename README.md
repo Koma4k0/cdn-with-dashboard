@@ -94,7 +94,7 @@ A powerful and flexible Content Delivery Network (CDN) solution for file storage
 
 1. Start the server:
    ```bash
-   npm start
+   npm run start
    ```
 
 2. For development with auto-restart on file changes:
